@@ -1,0 +1,279 @@
+*{
+    padding:0;
+    border:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.bg{
+    background-image: url("netflix_bgnew.jpg");
+    background-size: cover;
+    height:700px;
+    width:100%;
+    margin-top: ;
+}
+
+.logo{
+    background-image: url("netflix.png");
+    background-size: cover;
+    height:200px;
+    width:200px;
+    margin-left: 50px;
+    filter:brightness(100%);
+}
+
+.net_logo{
+    width:70%;
+}
+
+.btn{
+    background-color: red;
+    color:white;
+    border:none;
+    border-radius:4px;
+    height:32px;
+    width:76px;
+    font-size: 1.1 rem;
+    font-weight: 500;
+    filter:brightness(100%);
+}
+
+.opt{
+    background-color: rgba(0, 0, 0, 0.764);
+    height: 32px;
+    width:120px;
+    color:white;
+    font-size: 1.1rem;
+    text-align:center;
+    margin-right: 5px;
+    border-radius:4px;
+}
+
+.lb{
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+
+.stbn{
+    padding-top: 80px;
+}
+
+.midtext{
+    color:white;
+    text-align:center;
+    margin-left: 5%;
+    margin-top:100px;
+}
+
+.midtext h1{
+    font-size: 48px;
+    font-weight: 1000;
+    filter: brightness(200%);
+}
+
+.midtext h3{
+    font-size: 1.5rem;
+    font-weight: 80;
+}
+
+.midtext p{
+    font-size: 1.2rem;
+    font-weight: 80;
+}
+
+.emadd{
+    background-color: transparent;
+    color: white;
+    height:60px;
+    width:25%;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 100;
+    padding-left: 10px;;
+    backdrop-filter: blur(5px);
+}
+
+.bgs{
+    background-color: red;
+    color:white;
+    filter: brightness(200%);
+    border:none;
+    border-radius: 6px;
+    height:60px;
+    width:15%;
+    font-size: 1.5rem;
+    text-align: start;
+    padding-left: 20px;
+    margin-left:4px;
+}
+
+.part2{
+    height:540px;
+    padding:72px 0px;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.985);
+    filter: brightness(150%);
+}
+
+.border{
+    border:6px solid #000000b7;
+}
+
+.first_section{
+    height:400px;
+    margin:0px 32px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top:55px;
+}
+
+.leftsection{
+    height:170px;
+    width:540px;
+}
+
+.leftsection h1{
+    font-size:45px;
+    font-weight: 1000;
+    color:white
+}
+
+.leftsection p{
+    font-size:1.5rem;
+    font-weight: 100;
+    color: white;
+}
+
+.rightsection{
+    height:400px;
+    width:530px;
+    /*background-image: url("netimg1.jpg");*/
+    background-size: cover;
+    margin-right:5px;
+}
+
+.second_section{
+    height:400px;
+    margin:0px 32px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top:55px;
+}
+
+.rightsec{
+    height:170px;
+    width:540px;
+}
+
+.rightsec h1{
+    font-size:45px;
+    font-weight: 1000;
+    color:white
+}
+
+.rightsec p{
+    font-size:1.5rem;
+    font-weight: 100;
+    color: white;
+}
+
+.leftsec{
+    height:350px;
+    width:530px;
+    /*background-image: url("netimg1.jpg");*/
+    background-size: cover;
+    padding-left:5px;
+}
+
+.part3{
+    background-color: rgba(0, 0, 0, 0.985);
+    color:white;
+    text-align: center;
+    height:900px;
+}
+
+.part3 h1{
+    margin-top:0px;
+    font-size:50px;
+    padding-top: 60px;
+    background-color: rgba(0, 0, 0, 0.985);
+}
+
+.ques{
+    font-size: 2rem;
+    display:block;
+    justify-content: left;
+}
+
+.qs{
+    background-color: rgb(48, 47, 47);
+    width:80%;
+    text-align: start;
+    margin-left: 150px;
+    height:60px;
+    font-size: 1.5rem;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-bottom:-15px;
+}
+
+.qs:hover{
+    background-color: rgba(226, 209, 209, 0.259);
+}
+.part3 p{
+    font-size:1.2rem;
+}
+
+.border{
+    border:6px solid #000000b7;
+}
+
+.part4{
+    background-color:  rgba(0, 0, 0, 0.985);
+    color:rgba(255, 255, 255, 0.784);
+
+}
+
+.part4 p{
+    margin-top: 0px;
+    padding-top: 60px;
+    padding-left: 200px;
+}
+
+ul{
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+ul a{
+    display:block;
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+
+.lists{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.opt1{
+    background-color: rgba(0, 0, 0, 0.764);
+    height: 32px;
+    width:120px;
+    color:white;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-left:190px;
+    margin-top:40px;
+    border-radius:4px;
+
+}
+
+.end{
+    margin-top:10px;
+    padding-bottom:80px;
+    height:30px;
+}
